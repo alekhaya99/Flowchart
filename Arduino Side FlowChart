@@ -1,32 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2020-11-08T14:25:06.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="zFKKtOy-2AAgtt_tQant" version="13.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T10:59:51.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ngEYuByI2inPe3wwL8mF" version="13.9.2" type="github">
   <diagram id="jc-VQ25egAnQKMkeDFmj" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cEm9AXooqDb7DAFqP_X4-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="30" width="120" height="80" as="geometry" />
+        <mxCell id="cEm9AXooqDb7DAFqP_X4-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142" y="30" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cEm9AXooqDb7DAFqP_X4-2" value="Declare the Parameters&lt;br&gt;(Wi-Fi ,Firebase, Pin No )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="cEm9AXooqDb7DAFqP_X4-2" value="Declare the Parameters&lt;br&gt;(Wi-Fi ,Firebase, Pin No )" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEm9AXooqDb7DAFqP_X4-3" value="Connect to the WiFi and Firebase Realtime Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="cEm9AXooqDb7DAFqP_X4-3" value="Connect to the WiFi and Firebase Realtime Database" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEm9AXooqDb7DAFqP_X4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cEm9AXooqDb7DAFqP_X4-4" target="cEm9AXooqDb7DAFqP_X4-7">
+        <mxCell id="cEm9AXooqDb7DAFqP_X4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cEm9AXooqDb7DAFqP_X4-4" target="cEm9AXooqDb7DAFqP_X4-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cEm9AXooqDb7DAFqP_X4-4" value="Sense the temperature and the presence of smoke" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="cEm9AXooqDb7DAFqP_X4-4" value="Sense the temperature and the presence of smoke" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142" y="416" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEm9AXooqDb7DAFqP_X4-5" value="Check if there is a fire or not" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="0q2lQnyPY5bFK1RKn_rk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEm9AXooqDb7DAFqP_X4-5" target="0q2lQnyPY5bFK1RKn_rk-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cEm9AXooqDb7DAFqP_X4-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="cEm9AXooqDb7DAFqP_X4-5" value="Check if there is a fire or not" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142" y="511" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEm9AXooqDb7DAFqP_X4-7" value="Write and Updtae the sensor data to Firebase Real-Time Database" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="285" width="130" height="90" as="geometry" />
+        <mxCell id="cEm9AXooqDb7DAFqP_X4-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142" y="626" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0q2lQnyPY5bFK1RKn_rk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cEm9AXooqDb7DAFqP_X4-7" target="0q2lQnyPY5bFK1RKn_rk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cEm9AXooqDb7DAFqP_X4-7" value="Write and Updtae the sensor data to Firebase Real-Time Database" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="362" y="401" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0q2lQnyPY5bFK1RKn_rk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0q2lQnyPY5bFK1RKn_rk-1" target="0q2lQnyPY5bFK1RKn_rk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0q2lQnyPY5bFK1RKn_rk-1" value="Trigger Firebase Cloud Messaging Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="506" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0q2lQnyPY5bFK1RKn_rk-4" value="User can view the data along with the live recordingwithin the mobile Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="401" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0q2lQnyPY5bFK1RKn_rk-6" value="Send Notification Alert to the user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="511" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
